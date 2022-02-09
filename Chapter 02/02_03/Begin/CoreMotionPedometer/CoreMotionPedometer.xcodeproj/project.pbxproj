@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15A601B1ECA463C003C80C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A601A1ECA463C003C80C2 /* AppDelegate.swift */; };
+		E15A601D1ECA463C003C80C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A601C1ECA463C003C80C2 /* ViewController.swift */; };
+		E15A60201ECA463C003C80C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15A601E1ECA463C003C80C2 /* Main.storyboard */; };
+		E15A60221ECA463C003C80C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15A60211ECA463C003C80C2 /* Assets.xcassets */; };
+		E15A60251ECA463C003C80C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15A60231ECA463C003C80C2 /* LaunchScreen.storyboard */; };
+		E15A60301ECA463C003C80C2 /* CoreMotionPedometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A602F1ECA463C003C80C2 /* CoreMotionPedometerTests.swift */; };
+		E15A603B1ECA463C003C80C2 /* CoreMotionPedometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A603A1ECA463C003C80C2 /* CoreMotionPedometerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E15A602C1ECA463C003C80C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15A600F1ECA463C003C80C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15A60161ECA463C003C80C2;
+			remoteInfo = CoreMotionPedometer;
+		};
+		E15A60371ECA463C003C80C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15A600F1ECA463C003C80C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15A60161ECA463C003C80C2;
+			remoteInfo = CoreMotionPedometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E15A60171ECA463C003C80C2 /* CoreMotionPedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionPedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15A601A1ECA463C003C80C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E15A601C1ECA463C003C80C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E15A601F1ECA463C003C80C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E15A60211ECA463C003C80C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15A60241ECA463C003C80C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E15A60261ECA463C003C80C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15A602B1ECA463C003C80C2 /* CoreMotionPedometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionPedometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15A602F1ECA463C003C80C2 /* CoreMotionPedometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionPedometerTests.swift; sourceTree = "<group>"; };
+		E15A60311ECA463C003C80C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15A60361ECA463C003C80C2 /* CoreMotionPedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionPedometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15A603A1ECA463C003C80C2 /* CoreMotionPedometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionPedometerUITests.swift; sourceTree = "<group>"; };
+		E15A603C1ECA463C003C80C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15A60141ECA463C003C80C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15A60281ECA463C003C80C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15A60331ECA463C003C80C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15A600E1ECA463C003C80C2 = {
+			isa = PBXGroup;
+			children = (
+				E15A60191ECA463C003C80C2 /* CoreMotionPedometer */,
+				E15A602E1ECA463C003C80C2 /* CoreMotionPedometerTests */,
+				E15A60391ECA463C003C80C2 /* CoreMotionPedometerUITests */,
+				E15A60181ECA463C003C80C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E15A60181ECA463C003C80C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15A60171ECA463C003C80C2 /* CoreMotionPedometer.app */,
+				E15A602B1ECA463C003C80C2 /* CoreMotionPedometerTests.xctest */,
+				E15A60361ECA463C003C80C2 /* CoreMotionPedometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15A60191ECA463C003C80C2 /* CoreMotionPedometer */ = {
+			isa = PBXGroup;
+			children = (
+				E15A601A1ECA463C003C80C2 /* AppDelegate.swift */,
+				E15A601C1ECA463C003C80C2 /* ViewController.swift */,
+				E15A601E1ECA463C003C80C2 /* Main.storyboard */,
+				E15A60211ECA463C003C80C2 /* Assets.xcassets */,
+				E15A60231ECA463C003C80C2 /* LaunchScreen.storyboard */,
+				E15A60261ECA463C003C80C2 /* Info.plist */,
+			);
+			path = CoreMotionPedometer;
+			sourceTree = "<group>";
+		};
+		E15A602E1ECA463C003C80C2 /* CoreMotionPedometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E15A602F1ECA463C003C80C2 /* CoreMotionPedometerTests.swift */,
+				E15A60311ECA463C003C80C2 /* Info.plist */,
+			);
+			path = CoreMotionPedometerTests;
+			sourceTree = "<group>";
+		};
+		E15A60391ECA463C003C80C2 /* CoreMotionPedometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E15A603A1ECA463C003C80C2 /* CoreMotionPedometerUITests.swift */,
+				E15A603C1ECA463C003C80C2 /* Info.plist */,
+			);
+			path = CoreMotionPedometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15A60161ECA463C003C80C2 /* CoreMotionPedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15A603F1ECA463C003C80C2 /* Build configuration list for PBXNativeTarget "CoreMotionPedometer" */;
+			buildPhases = (
+				E15A60131ECA463C003C80C2 /* Sources */,
+				E15A60141ECA463C003C80C2 /* Frameworks */,
+				E15A60151ECA463C003C80C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMotionPedometer;
+			productName = CoreMotionPedometer;
+			productReference = E15A60171ECA463C003C80C2 /* CoreMotionPedometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E15A602A1ECA463C003C80C2 /* CoreMotionPedometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15A60421ECA463C003C80C2 /* Build configuration list for PBXNativeTarget "CoreMotionPedometerTests" */;
+			buildPhases = (
+				E15A60271ECA463C003C80C2 /* Sources */,
+				E15A60281ECA463C003C80C2 /* Frameworks */,
+				E15A60291ECA463C003C80C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15A602D1ECA463C003C80C2 /* PBXTargetDependency */,
+			);
+			name = CoreMotionPedometerTests;
+			productName = CoreMotionPedometerTests;
+			productReference = E15A602B1ECA463C003C80C2 /* CoreMotionPedometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E15A60351ECA463C003C80C2 /* CoreMotionPedometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15A60451ECA463C003C80C2 /* Build configuration list for PBXNativeTarget "CoreMotionPedometerUITests" */;
+			buildPhases = (
+				E15A60321ECA463C003C80C2 /* Sources */,
+				E15A60331ECA463C003C80C2 /* Frameworks */,
+				E15A60341ECA463C003C80C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15A60381ECA463C003C80C2 /* PBXTargetDependency */,
+			);
+			name = CoreMotionPedometerUITests;
+			productName = CoreMotionPedometerUITests;
+			productReference = E15A60361ECA463C003C80C2 /* CoreMotionPedometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15A600F1ECA463C003C80C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Steven Lipton";
+				TargetAttributes = {
+					E15A60161ECA463C003C80C2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 99WG7338AY;
+						ProvisioningStyle = Automatic;
+					};
+					E15A602A1ECA463C003C80C2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 99WG7338AY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E15A60161ECA463C003C80C2;
+					};
+					E15A60351ECA463C003C80C2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 99WG7338AY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E15A60161ECA463C003C80C2;
+					};
+				};
+			};
+			buildConfigurationList = E15A60121ECA463C003C80C2 /* Build configuration list for PBXProject "CoreMotionPedometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E15A600E1ECA463C003C80C2;
+			productRefGroup = E15A60181ECA463C003C80C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15A60161ECA463C003C80C2 /* CoreMotionPedometer */,
+				E15A602A1ECA463C003C80C2 /* CoreMotionPedometerTests */,
+				E15A60351ECA463C003C80C2 /* CoreMotionPedometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15A60151ECA463C003C80C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15A60251ECA463C003C80C2 /* LaunchScreen.storyboard in Resources */,
+				E15A60221ECA463C003C80C2 /* Assets.xcassets in Resources */,
+				E15A60201ECA463C003C80C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15A60291ECA463C003C80C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15A60341ECA463C003C80C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15A60131ECA463C003C80C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15A601D1ECA463C003C80C2 /* ViewController.swift in Sources */,
+				E15A601B1ECA463C003C80C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15A60271ECA463C003C80C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15A60301ECA463C003C80C2 /* CoreMotionPedometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15A60321ECA463C003C80C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15A603B1ECA463C003C80C2 /* CoreMotionPedometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E15A602D1ECA463C003C80C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15A60161ECA463C003C80C2 /* CoreMotionPedometer */;
+			targetProxy = E15A602C1ECA463C003C80C2 /* PBXContainerItemProxy */;
+		};
+		E15A60381ECA463C003C80C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15A60161ECA463C003C80C2 /* CoreMotionPedometer */;
+			targetProxy = E15A60371ECA463C003C80C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E15A601E1ECA463C003C80C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15A601F1ECA463C003C80C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E15A60231ECA463C003C80C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15A60241ECA463C003C80C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E15A603D1ECA463C003C80C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E15A603E1ECA463C003C80C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E15A60401ECA463C003C80C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99WG7338AY;
+				INFOPLIST_FILE = CoreMotionPedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.CoreMotionPedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E15A60411ECA463C003C80C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99WG7338AY;
+				INFOPLIST_FILE = CoreMotionPedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.CoreMotionPedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E15A60431ECA463C003C80C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 99WG7338AY;
+				INFOPLIST_FILE = CoreMotionPedometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.CoreMotionPedometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMotionPedometer.app/CoreMotionPedometer";
+			};
+			name = Debug;
+		};
+		E15A60441ECA463C003C80C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 99WG7338AY;
+				INFOPLIST_FILE = CoreMotionPedometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.CoreMotionPedometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMotionPedometer.app/CoreMotionPedometer";
+			};
+			name = Release;
+		};
+		E15A60461ECA463C003C80C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 99WG7338AY;
+				INFOPLIST_FILE = CoreMotionPedometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.CoreMotionPedometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoreMotionPedometer;
+			};
+			name = Debug;
+		};
+		E15A60471ECA463C003C80C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 99WG7338AY;
+				INFOPLIST_FILE = CoreMotionPedometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.CoreMotionPedometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoreMotionPedometer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15A60121ECA463C003C80C2 /* Build configuration list for PBXProject "CoreMotionPedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15A603D1ECA463C003C80C2 /* Debug */,
+				E15A603E1ECA463C003C80C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15A603F1ECA463C003C80C2 /* Build configuration list for PBXNativeTarget "CoreMotionPedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15A60401ECA463C003C80C2 /* Debug */,
+				E15A60411ECA463C003C80C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E15A60421ECA463C003C80C2 /* Build configuration list for PBXNativeTarget "CoreMotionPedometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15A60431ECA463C003C80C2 /* Debug */,
+				E15A60441ECA463C003C80C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E15A60451ECA463C003C80C2 /* Build configuration list for PBXNativeTarget "CoreMotionPedometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15A60461ECA463C003C80C2 /* Debug */,
+				E15A60471ECA463C003C80C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15A600F1ECA463C003C80C2 /* Project object */;
+}

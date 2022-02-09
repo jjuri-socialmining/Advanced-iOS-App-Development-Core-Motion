@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoreMotionPedometer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="ntJ-vC-b44">
+                                <rect key="frame" x="-20" y="0.0" width="415" height="687"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eYR-RH-gqn">
+                                <rect key="frame" x="26" y="30" width="323" height="627"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Pedometer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaO-XX-qj5">
+                                        <rect key="frame" x="0.0" y="0.0" width="323" height="104.5"/>
+                                        <color key="backgroundColor" red="0.0" green="0.39215686274509803" blue="0.058823529411764705" alpha="0.90663512323943662" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status: Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9q-gh-0MQ">
+                                        <rect key="frame" x="0.0" y="104.5" width="323" height="104.5"/>
+                                        <color key="backgroundColor" red="0.0" green="0.59215686274509804" blue="0.058823529411764705" alpha="0.90567231514084512" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steps: 0" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGK-Rw-ASr">
+                                        <rect key="frame" x="0.0" y="209" width="323" height="104.5"/>
+                                        <color key="backgroundColor" red="0.0" green="0.59215686274509804" blue="0.058823529411764705" alpha="0.90567231514084512" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance: 0 meters" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRl-pq-OeG">
+                                        <rect key="frame" x="0.0" y="313.5" width="323" height="104.5"/>
+                                        <color key="backgroundColor" red="0.0" green="0.59215686274509804" blue="0.058823529411764705" alpha="0.90567231514084512" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pace: 0 min/mi" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBP-lJ-EDW">
+                                        <rect key="frame" x="0.0" y="418" width="323" height="104.5"/>
+                                        <color key="backgroundColor" red="0.0" green="0.59215686274509804" blue="0.058823529411764705" alpha="0.90567231514084512" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deW-Tt-EK2">
+                                        <rect key="frame" x="0.0" y="522.5" width="323" height="104.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="28"/>
+                                        <state key="normal" title="Start">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="startStopPedometer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j72-Gj-n2j"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.59199218750000004" blue="0.058789062500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ntJ-vC-b44" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-20" id="2C5-vW-YkW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ntJ-vC-b44" secondAttribute="bottom" constant="-20" id="AtO-hJ-tRH"/>
+                            <constraint firstItem="eYR-RH-gqn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="F3B-rq-mFJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eYR-RH-gqn" secondAttribute="trailing" constant="10" id="GYj-Jg-jNI"/>
+                            <constraint firstItem="ntJ-vC-b44" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="IYk-js-710"/>
+                            <constraint firstItem="eYR-RH-gqn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="gXU-ov-Bcm"/>
+                            <constraint firstAttribute="trailing" secondItem="ntJ-vC-b44" secondAttribute="trailing" constant="-20" id="mkT-DJ-IMG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eYR-RH-gqn" secondAttribute="bottom" constant="10" id="ybY-jx-Srf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="distanceLabel" destination="wRl-pq-OeG" id="9td-bK-cEV"/>
+                        <outlet property="paceLabel" destination="wBP-lJ-EDW" id="j3x-c0-byb"/>
+                        <outlet property="startStopPedometer" destination="deW-Tt-EK2" id="ngW-hQ-xQp"/>
+                        <outlet property="statusLabel" destination="U9q-gh-0MQ" id="ccc-1M-bTF"/>
+                        <outlet property="stepsLabel" destination="XGK-Rw-ASr" id="4Xx-6A-OMf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_image" width="750" height="1334"/>
+    </resources>
+</document>
